@@ -32,7 +32,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
 
-    $("h1").text("Game Over, Press 'a' Key to Restart.")
+    $("h1").text("Game Over, Press 'a' Key to Restart.");
     console.log("wrong");
     startOver();
   }
